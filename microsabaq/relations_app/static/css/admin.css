@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+/* === Общие цвета и фон === */
+:root {
+  --primary-color: #00bcd4; /* акцент — голубой */
+  --background-color: #0b0f1a; /* фон */
+  --text-color: #f8f9fa;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Inter', sans-serif;
+}
+
+.module h2 {
+  background-color: var(--primary-color);
+  color: black;
+}
+
+/* === Меню === */
+#header {
+  background-color: #1c1f2a;
+  color: var(--text-color);
+  border-bottom: 2px solid var(--primary-color);
+}
+
+#user-tools a {
+  color: var(--primary-color);
+}
+
+#content {
+  background-color: #12141f;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* === Кнопки === */
+.button, input[type=submit], input[type=button] {
+  background-color: var(--primary-color);
+  border: none;
+  color: black;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-weight: 600;
+}
+
+.button:hover, input[type=submit]:hover {
+  background-color: #03a9f4;
+}
+
+/* === Таблицы === */
+#changelist-form table {
+  background-color: #1a1c28;
+  border-radius: 10px;
+}
