@@ -1,0 +1,1 @@
+web: gunicorn relations_project.wsgi --log-file -
